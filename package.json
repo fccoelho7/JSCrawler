@@ -1,0 +1,17 @@
+{
+  "name": "js-apps-share",
+  "version": "1.0.0",
+  "description": "",
+  "main": "JSCrawler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fabio Carvalho <fccoelho7@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "express": "^4.14.0",
+    "himalaya": "^0.2.0",
+    "phantom": "^2.1.14"
+  }
+}
