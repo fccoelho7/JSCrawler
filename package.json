@@ -1,5 +1,5 @@
 {
-  "name": "js-apps-share",
+  "name": "jscrawler",
   "version": "1.0.0",
   "description": "",
   "main": "JSCrawler.js",
@@ -13,5 +13,12 @@
     "express": "^4.14.0",
     "himalaya": "^0.2.0",
     "phantom": "^2.1.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fccoelho7/JSCrawler"
+  },
+  "bugs": {
+    "url": "https://github.com/fccoelho7/JSCrawler/issues"
   }
 }
