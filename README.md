@@ -12,7 +12,7 @@ Just type:
 
 ## Dependencies
 
-This is a **Express Framework** module.
+This is an **Express Framework** module.
 
 ## Usage
 
