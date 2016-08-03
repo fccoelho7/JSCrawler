@@ -43,7 +43,8 @@ module.exports = class JSCrawler {
   }
 
   loadPage() {
-    const url = this.req.protocol + '://' + this.req.get('host') + this.req.originalUrl
+    const req = this.req
+    const url = req.protocol + '://' + req.get('host') + req.originalUrl
     let sitepage = null
     let phInstance = null
 
