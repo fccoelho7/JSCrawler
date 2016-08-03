@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const JSCrawler = require('./JSCrawler')
+const JSCrawler = require('./index')
 
 app.get('*', (req, res, next) => {
   new JSCrawler(req, res, next)
