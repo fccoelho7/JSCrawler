@@ -2,7 +2,7 @@ const phantom = require('phantom')
 const himalaya = require('himalaya')
 const cheerio = require('cheerio')
 
-module.exports = class JSCrawler {
+class JSCrawler {
   constructor(req, res, next) {
     this.res = res
     this.req = req
@@ -78,3 +78,5 @@ module.exports = class JSCrawler {
     return true
   }
 }
+
+module.exports = JSCrawler
