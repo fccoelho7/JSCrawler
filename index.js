@@ -72,7 +72,7 @@ class JSCrawler {
 
   isCrawler() {
     const user = this.req.headers['user-agent']
-    if (!(user.match(/facebookexternalhit|Facebot/i))) {
+    if (!(user.match(/facebookexternalhit|Facebot|Twitterbot/i))) {
       return false
     }
     return true
